@@ -5,9 +5,10 @@ module Fluent
     include ::Fluent::TextParser::TypeConverter
 
     def filter(tag, time, record)
-      record.map do |key, val|
+      filtered = record.map do |key, val|
         [key, convert_type(key, val)]
-      end.to_h
+      end
+      Hash[*filtered.flatten(1)]
     end
   end
 end
