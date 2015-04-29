@@ -64,6 +64,8 @@ Time format can be specified like `KEY:time:TIME_FORMAT` as:
 </filter>
 ```
 
+As default, ruby takes cares of it as much as possible (`Time.parse` method is used).
+
 ### array_delimiter
 
 Array delimiter can be specified like `KEY:array:DELIMITER` as:
