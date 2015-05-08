@@ -1,7 +1,7 @@
 require_relative 'helper'
 require 'fluent/plugin/filter_typecast'
 
-class DupFilterTest < Test::Unit::TestCase
+class TypecastFilterTest < Test::Unit::TestCase
   include Fluent
 
   setup do
