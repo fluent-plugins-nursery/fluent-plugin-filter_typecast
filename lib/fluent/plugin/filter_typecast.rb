@@ -1,3 +1,6 @@
+require 'fluent/filter'
+require 'fluent/parser'
+
 module Fluent
   class TypecastFilter < Filter
     Fluent::Plugin.register_filter('typecast', self)
