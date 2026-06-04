@@ -1,6 +1,6 @@
 # fluent-plugin-filter_typecast
 
-[![Build Status](https://secure.travis-ci.org/sonots/fluent-plugin-filter_typecast.png?branch=master)](http://travis-ci.org/sonots/fluent-plugin-filter_typecast)
+[![test](https://github.com/fluent-plugins-nursery/fluent-plugin-filter_typecast/actions/workflows/test.yml/badge.svg)](https://github.com/fluent-plugins-nursery/fluent-plugin-filter_typecast/actions/workflows/test.yml)
 
 A Fluentd filter plugin to cast record types
 
